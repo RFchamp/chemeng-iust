@@ -93,4 +93,4 @@ if __name__ == "__main__":
     send_message(chat_id, 'بسیار خوب، موفق باشید.')
     # send_photo(chat_id, open('120077896.png', 'rb'))
     print()
-    # app.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
+    # app.run(debug=True, port=8080)
